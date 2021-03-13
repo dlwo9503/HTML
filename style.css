@@ -1,0 +1,12 @@
+a, h1{
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+}
+@media (min-width:800px) {
+    a{
+        display: grid;
+    }
+}
