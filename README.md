@@ -1,1 +1,2 @@
-# web1
+# Web-Study
+웹 개발 
