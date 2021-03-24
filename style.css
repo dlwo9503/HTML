@@ -36,3 +36,37 @@
 .lottoNumber6 {
     background-color: #0d1a00;
 }
+
+@media (max-width:500px) {
+    .lotto {
+        display: inline-block;
+        width: 130px;
+        margin: 5px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 50px;
+        height: 150px;
+        line-height: 150px;
+        color: #fff;
+        text-shadow: 3px 10px 10px black;
+    }
+    .lottoNumber1 {
+        background-color: #8cff1a;
+    }
+    .lottoNumber2 {
+        background-color: #73e600
+        ;
+    }
+    .lottoNumber3 {
+        background-color: #59b300;
+    }
+    .lottoNumber4 {
+        background-color: #408000;
+    }
+    .lottoNumber5 {
+        background-color: #264d00;
+    }
+    .lottoNumber6 {
+        background-color: #0d1a00;
+    }
+}
