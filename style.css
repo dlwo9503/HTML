@@ -37,7 +37,7 @@
     background-color: #0d1a00;
 }
 
-@media (max-width:500px) {
+@media (max-width:1080px) {
     .lotto {
         display: inline-block;
         width: 130px;
