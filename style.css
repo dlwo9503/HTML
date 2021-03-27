@@ -70,3 +70,106 @@
         background-color: #0d1a00;
     }
 }
+
+/*기념일 */
+
+.container{
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    border:1px solid #ccc;
+    margin: 100px auto;
+}
+
+.box{
+    text-align: center;
+}
+
+.box > span.txt{
+    display: block;
+    font-size: 20px;
+    margin: 20px 0px 0px 8px;
+}
+
+.box > span#end{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.box > .date{
+    text-align: center;
+}
+
+.gray {
+    color: #a0a0a0;
+}
+
+.special-day {
+    border-top:1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 25px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.days-left {
+    text-align: right;
+}
+
+.date {
+    text-align: right;
+    color: #a0a0a0;
+}
+
+ /*게임*/
+ .game-bg {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    background-image: url(/img/background.png);
+
+    text-align: center;
+    margin: 100px auto;
+}
+
+.game-bg #hpBar {
+    color: #fff;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#drone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    left: 100px;
+    cursor: pointer;
+}
+
+#bunker {
+    opacity: 1;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    right: 100px;
+    transition: all 0.3s;
+}
+
+#spit {
+    opacity: 0;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 90px;
+    left: 60px;
+    z-index: 3;
+}

@@ -10,5 +10,5 @@ while (lotto.length < 6) { // 숫자 6개 뽑을때 까지 반복
 lotto.sort((a, b) => a - b); // 번호 정렬
 
 for (let i = 0; i < 6; i++) {
-  document.write(`<div class="lotto lottoNumber${i + 1}"> ${lotto[i]}</div>`);
+  document.write(`<div class="lotto lottoNumber${i + 1}"> ${lotto[i]}</div>`); // 추첨된 번호 출력
 }
